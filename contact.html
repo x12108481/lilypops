@@ -53,45 +53,67 @@
     </header>
 
     <div class="main-container">
-      <form class="form-horizontal" role="form" method="post" action="index.php">
-      	<div class="form-group">
-      		<label for="name" class="col-sm-2 control-label">Name</label>
-      		<div class="col-sm-10">
-      			<input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="">
-      		</div>
-      	</div>
-      	<div class="form-group">
-      		<label for="email" class="col-sm-2 control-label">Email</label>
-      		<div class="col-sm-10">
-      			<input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
-      		</div>
-      	</div>
-      	<div class="form-group">
-      		<label for="message" class="col-sm-2 control-label">Message</label>
-      		<div class="col-sm-10">
-      			<textarea class="form-control" rows="4" name="message"></textarea>
-      		</div>
-      	</div>
-      	<div class="form-group">
-      		<label for="human" class="col-sm-2 control-label">2 + 3 = ?</label>
-      		<div class="col-sm-10">
-      			<input type="text" class="form-control" id="human" name="human" placeholder="Your Answer">
-      		</div>
-      	</div>
-      	<div class="form-group">
-      		<div class="col-sm-10 col-sm-offset-2">
-      			<input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
-      		</div>
-      	</div>
-      	<div class="form-group">
-      		<div class="col-sm-10 col-sm-offset-2">
-      			<! Will be used to display an alert to the user>
-      		</div>
-      	</div>
-      </form>
+      <div class="contact-form">
+        <!--FORM V1-->
+        <form>
+          <div class="form-group">
+            <label for="name"> Your Name: </label>
+            <input type="name" class="form-control" id="name" placeholder="Enter name and last name">
+          </div>
 
+          <div class="form-group">
+            <label for="email"> Your email: </label>
+            <input type="email" class="form-control" id="email" placeholder="Enter Email">
+            <small id="emailComment" class="form-text text-muted"> We'll never share your email with anyone else</small>
+          </div>
+
+          <div class="form-group">
+            <label for="number"> Contact Number: </label>
+            <input type="number" class="form-control" id="number">
+          </div>
+
+          <div class="form-group">
+            <label for="reasonForContact"> Please select the reason for contact</label>
+            <select class="form-control" id="reasonForContact">
+              <option> Make an order</option>
+              <option> Get information about current offers</option>
+              <option> Get ingformation about the company</option>
+              <option> Other</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message"> Your Message: </label>
+            <textarea class="form-control" id="message" rows="4"></textarea>
+          </div>
+
+          <fieldset class="form-group">
+              <legend> Let us know which brand you like, so we can send you offers: </legend>
+              <div class="form-check">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="radio" name="brand" value="option 1" checked>
+                  Brand 1
+                </label>
+              </div>
+
+              <div class="form-check">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="radio" name="brand" value="option 2">
+                  Brand 2
+                </label>
+              </div>
+
+              <div class="form-check">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="radio" name="brand" value="option 3">
+                  Brand 3
+                </label>
+              </div>
+          </fieldset>
+          <button type="submit" class="btn btn-default"> Submit</button>
+        </form>
+      </div>
     </div>
-
 
   <!--Footer-->
   <div class="footer">
