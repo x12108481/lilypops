@@ -6,45 +6,83 @@
     padding-left: 0;
       background: none;
   }
+  .main-container {
+      width: 100%;
+      height: 100%;
+  }
+  .navbar-header {
 
+  }
 }
 @media (min-width:481px)  { /* smartphones, Android phones, landscape iPhone */
   .navbar-nav {
     padding-left: 0;
     background: none;
   }
+  .main-container {
+      width: 100%;
+      height: 100%;
+  }
+  .container .navbar-header {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+
 }
 @media (min-width:769px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
   .navbar-nav{
     padding-left: 14%;
   }
+  .main-container {
+      width: 75%;
+      height: 100%;
+  }
+  .navbar-header {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+
 }
 @media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
   .navbar-nav{
     padding-left: 16%;
   }
+  .main-container {
+      width: 75%;
+      height: 100%;
+  }
+
 }
 @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */
   .navbar-nav{
-    padding-left: 20%;
+    padding-left: 10%;
       background: none;
+  }
+  .main-container {
+      width: 75%;
+      height: 100%;
+  }
+  .container .navbar-header {
+    margin-left: 7%;
+    margin-right: 0;
   }
 }
 @media (min-width:1281px) { /* hi-res laptops and desktops */
   .navbar-nav{
     padding-left: 25%;
   }
-  .navbar {
-      background: none;
+  .main-container {
+      width: 75%;
+      height: 100%;
   }
-  .navbar:hover {
-    background: #ffffff;
+  .container .navbar-header {
+    margin-left: 0;
+    margin-right: 0;
   }
-
 }
 
 body{
-  font-family: Forum, serif;
+  font-family: sans-serif;
 }
 
 .bg-img {
@@ -56,24 +94,22 @@ body{
   width: 100%;
   height: 100%;
   filter: alpha(opacity=80);
+  z-index: -1;
+}
+
+.main-container {
+    background-color: #ffffff;
+    opacity: 0.8;
+    margin: auto;
+
 }
 
 .lilypops-logo {
-  width: 200px;
-  margin: auto;
-  display: block;
+  width: 160px;
   }
 
   .navbar{
-      font-size: 30px;
-  }
-
-  .havbar::before {
-    opacity: 0.5;
-  }
-
-  .havbar:hover {
-    opacity: 1;
+      font-size: 25px;
   }
 
 
