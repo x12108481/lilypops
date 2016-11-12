@@ -1,0 +1,106 @@
+
+
+@media (min-width:320px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+
+  .navbar-nav {
+    padding-left: 0;
+      background: none;
+  }
+
+}
+@media (min-width:481px)  { /* smartphones, Android phones, landscape iPhone */
+  .navbar-nav {
+    padding-left: 0;
+    background: none;
+  }
+}
+@media (min-width:769px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  .navbar-nav{
+    padding-left: 14%;
+  }
+}
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
+  .navbar-nav{
+    padding-left: 16%;
+  }
+}
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */
+  .navbar-nav{
+    padding-left: 20%;
+      background: none;
+  }
+}
+@media (min-width:1281px) { /* hi-res laptops and desktops */
+  .navbar-nav{
+    padding-left: 25%;
+  }
+  .navbar {
+      background: none;
+  }
+  .navbar:hover {
+    background: #ffffff;
+  }
+
+}
+
+body{
+  font-family: Forum, serif;
+}
+
+.bg-img {
+  position: absolute;
+  background-image: url('../images/img1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  filter: alpha(opacity=80);
+}
+
+.lilypops-logo {
+  width: 200px;
+  margin: auto;
+  display: block;
+  }
+
+  .navbar{
+      font-size: 30px;
+  }
+
+  .havbar::before {
+    opacity: 0.5;
+  }
+
+  .havbar:hover {
+    opacity: 1;
+  }
+
+
+  .item{
+    height: 400px;
+    margin: auto;
+}
+
+  .footer{
+  position: absolute;
+  right: 0;
+  left:0;
+  bottom: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-copyrights
+{
+  padding-left: 20px;
+  font-size:15px;
+
+}
