@@ -153,7 +153,10 @@ body{
   width: 100%;
   height: 100%;
   background-size: cover;
+<<<<<<< HEAD
   background-position: center center;
+=======
+>>>>>>> 4b58adc80fafd54c5fabbdd7b8c1a964e7cf54ba
 }
 
 .navbar-default {
@@ -197,6 +200,10 @@ body{
 }
 
 .heading2 {
+<<<<<<< HEAD
+=======
+  font-size: 150px;
+>>>>>>> 4b58adc80fafd54c5fabbdd7b8c1a964e7cf54ba
   left: 30%;
   color: white;
   font-weight: 600;
