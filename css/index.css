@@ -143,6 +143,7 @@
   }
 }
 
+/* general css styling */
 body{
   font-family: sans-serif;
 }
@@ -178,6 +179,7 @@ body{
 
 .navbar {
   font-size: 25px;
+  z-index: 9999;
 }
 
 .home-container {
