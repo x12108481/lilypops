@@ -168,7 +168,7 @@
 /* general css styling */
 body {
   font-family: 'Signika', sans-serif;
-  background-color: #f5f5fd;
+  background-color: #fff;
 }
 
 .navbar-default {
@@ -176,7 +176,7 @@ body {
 }
 
 .main-container {
-  background-color: rgba(204,139,177,0.15);
+  background-color: rgba(230, 198, 104, 0.15);
   position: relative;
   top: 120px;
 }
@@ -281,6 +281,21 @@ body {
   color: #ffffff;
 }
 
+.submit-btn {
+  background: #da1919;
+  width: 120px;
+  height: 40px;
+  border-radius: 30px;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.submit-btn:hover {
+  background: #da2020;
+  font-size: 17px;
+  color: #ffffff;
+}
+
 .flex-contact-form {
   display: flex;
   flex-flow: row wrap;
@@ -291,6 +306,7 @@ body {
   width: 350px;
   height: 350px;
   background-color: grey;
+  border: 5px solid #fff;
 }
 
 .adress-form {
@@ -300,7 +316,7 @@ body {
 }
 
 .adress-form-adress {
-  padding: 20px;
+  padding-top: 30px;
   min-height: 300px;
 }
 
@@ -351,4 +367,8 @@ body {
 
 .product-header {
   padding: 30px;
+}
+
+h3 {
+  color: #da1919;
 }
