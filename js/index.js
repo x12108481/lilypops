@@ -7,13 +7,19 @@ $('#flavours').on('click', function(e) {
   window.location='products.html';
 });
 
+//product page contact-us buttom event
+$('#contact').on('click', function(e) {
+  window.location='contact.html';
+});
+
+
 //on navbar logo click go to Home page
 $('#lilyLogo').on('click', function(e) {
   window.location='index.html';
 });
 
 function initMap() {
-  var uluru = {lat: -25.363, lng: 131.044};
+  var uluru = {lat: 32.7940, lng: 34.9896};
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 4,
     center: uluru

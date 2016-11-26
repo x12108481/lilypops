@@ -177,6 +177,8 @@ body {
 
 .main-container {
   background-color: rgba(204,139,177,0.15);
+  position: relative;
+  top: 120px;
 }
 
 .contact-form {
@@ -262,6 +264,23 @@ body {
   color: #ffffff;
 }
 
+.contact-btn {
+  background: #da1919;
+  width: 150px;
+  height: 40px;
+  border-radius: 30px;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.contact-btn:hover {
+  background: #da2020;
+  font-size: 20px;
+  width: 160px;
+  height: 45px;
+  color: #ffffff;
+}
+
 .flex-contact-form {
   display: flex;
   flex-flow: row wrap;
@@ -319,10 +338,6 @@ body {
   margin: auto;
 }
 
-.navbar-nav>li.active>a{
-    color: red;
-}
-
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a {
   background-color: #f7f2f2;
   background-image: none;
@@ -332,4 +347,8 @@ body {
 
 .navbar-toggle {
   top: 10px;
+}
+
+.product-header {
+  padding: 30px;
 }
