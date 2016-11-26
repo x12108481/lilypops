@@ -309,18 +309,18 @@ body {
   border: 5px solid #fff;
 }
 
-.adress-form {
+.address-form {
   margin: auto;
   display: flex;
   flex-flow: column;
 }
 
-.adress-form-adress {
+.address-form-adress {
   padding-top: 30px;
   min-height: 300px;
 }
 
-.adress-form-adress ul li {
+.address-form-adress ul li {
   list-style-type: none;
 }
 

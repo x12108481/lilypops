@@ -18,7 +18,7 @@ $('#lilyLogo').on('click', function(e) {
   window.location='index.html';
 });
 
-<script>
+
   function initMap() {
     var haifa = {lat: 32.794, lng: 34.989};
     var map = new google.maps.Map(document.getElementById('map'), {
@@ -31,4 +31,9 @@ $('#lilyLogo').on('click', function(e) {
       map: map
     });
   }
-</script>
+
+
+$('#submitBtn').on('click',function() {
+   alert("Thanks for contacting us! We will be in touch asap");
+   window.location='index.html';
+});
