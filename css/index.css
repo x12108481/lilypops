@@ -179,6 +179,7 @@ body {
   background-color: rgba(230, 198, 104, 0.15);
   position: relative;
   top: 120px;
+  margin-bottom: 100px;
 }
 
 .contact-form {
@@ -366,9 +367,114 @@ body {
 }
 
 .product-header {
-  padding: 30px;
+  padding: 3px;
 }
 
 h3 {
+  color: #da1919;
+}
+
+.pr-header {
+  text-align: center;
+  padding-bottom: 8px;
+  color: #da1919;
+  border-bottom: 1px solid #da1919;
+
+}
+
+.pr-details {
+  margin-top: 10px;
+  border-top: 1px solid #da1919;
+}
+
+.pr-details-header {
+  text-align: center;
+}
+.pr-detials-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.pr-details-container-content {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.pr-content-products {
+  display: flex;
+  flex-flow: column nowrap;
+  font-size: 15px;
+  padding: 10px;
+  width: 230px;
+}
+
+.pr-free-from-icons {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #da1919;
+}
+
+.pr-free-from-gluten {
+  height: 60px;
+  padding: 0 10px;
+}
+
+.pr-free-from-vegan {
+  height: 75px;
+  padding: 0 10px;
+}
+
+.pr-free-from-dairy {
+  height: 90px;
+  padding: 0 10px;
+}
+
+.pr-free-from-organic {
+  height: 80px;
+  padding: 0 10px;
+}
+
+.carousel-control.right {
+  background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgb(251, 247, 232) 100%);
+}
+
+.carousel-control.left {
+  background-image: linear-gradient(to right,rgb(251, 247, 232) 0,rgba(0,0,0,.0001) 100%);
+}
+
+.pr-lilys-bundles {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+
+}
+
+.pr-lilys-bundle {
+
+}
+
+.pr-lilys-bundle-box {
+  height: 60px;
+}
+
+.pr-lilys-order {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  font-size: 16px;
+  color: #da1919;
+}
+
+.pr-lilys-place-order {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 16px;
   color: #da1919;
 }
