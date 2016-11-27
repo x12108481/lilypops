@@ -25,6 +25,11 @@
   .about-image {
     width: 100%;
   }
+
+  .contact-form {
+    width: 100%;
+    padding: 30px;
+  }
 }
 @media (min-width:481px)  { /* smartphones, Android phones, landscape iPhone */
 
@@ -83,6 +88,11 @@
     height: 100%;
     background-size: cover;
     background-position: center center;
+  }
+
+  .contact-form {
+    width: 380px;
+    padding: 30px 10px;
   }
 
   .bg-img-prg {
@@ -183,8 +193,7 @@ body {
 }
 
 .contact-form {
-  width: 450px;
-  padding: 30px;
+  margin: auto;
   border-radius: 5px;
 }
 
@@ -239,7 +248,7 @@ body {
   margin: auto;
   justify-content: space-between;
   align-items: center;
-  height: 80px;
+  height: 50px;
   display: flex;
   flex-direction: row;
 }
@@ -477,4 +486,8 @@ h3 {
   padding-bottom: 20px;
   font-size: 16px;
   color: #da1919;
+}
+
+.pr-heading-underline {
+  border-bottom: 1px solid #da1919;
 }
