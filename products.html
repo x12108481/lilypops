@@ -23,9 +23,7 @@
   </head>
 
   <body>
-    <div class="bg-img-prd"></div>
     <header>
-
       <!--navigation bar-->
       <nav class="navbar navbar-default">
         <div class="navbar-container">
@@ -33,7 +31,7 @@
           <!--navigation bar adjustment to mobile- 3 line button-->
           <div class="navbar-header">
             <img class="lilypops-logo" id="lilyLogo" src="images/lilypops-logo.png" alt="logo" />
-
+            <!--navigation bar button for mobile-->
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#lilypops-navbar-collapse" aria-expanded="false">
               <span class="sr-only">Toggle Navegation</span>
               <span class="icon-bar"></span>
@@ -41,7 +39,7 @@
               <span class="icon-bar"></span>
             </button>
           </div>
-
+          <!--navigation bar buttons-->
           <div class="collapse navbar-collapse" id="lilypops-navbar-collapse">
             <ul class="nav navbar-nav">
               <li><a href="index.html"> Home </a></li>
@@ -54,142 +52,133 @@
       </nav>
     </header>
 
-    <!-- Page Content -->
+    <!--main container products page-->
    <div class="main-container">
+     <div class="global-container">
       <!-- products page header -->
-      <div class="product-header">
-        <h1 class="pr-header">100% all-natural frozen pops</h1>
-      </div>
-      <!-- carousel -->
-      <div id="carousel-demo" class="carousel slide" data-ride="carousel" data-interval="2000">
-       <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#carousel-demo" data-slide-to="0" class="active"></li>
-          <li data-target="#carousel-demo" data-slide-to="1"></li>
-          <li data-target="#carousel-demo" data-slide-to="2"></li>
-          <li data-target="#carousel-demo" data-slide-to="3"></li>
-        </ol>
+        <div class="product-header">
+          <h1 class="pr-header">100% all-natural frozen pops</h1>
+        </div>
+        <!-- carousel -->
+        <div id="carousel-demo" class="carousel slide" data-ride="carousel" data-interval="2000">
+         <!-- carousel images indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-demo" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-demo" data-slide-to="1"></li>
+            <li data-target="#carousel-demo" data-slide-to="2"></li>
+            <li data-target="#carousel-demo" data-slide-to="3"></li>
+          </ol>
 
-        <!-- Sliding images statring here -->
-        <div class="carousel-inner">
-          <div class="item active">
-            <img src="images/img1.jpg" alt="banana">
-            <div class="carousel-caption">
-              <h3>The Banana slide</h3>
-              <p>Banana is useful for health</p>
+          <!-- Sliding images statring here -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="images/img1.jpg" alt="banana">
+            </div>
+            <div class="item">
+              <img src="images/img4.jpg" alt="currant">
+            </div>
+            <div class="item">
+              <img src="images/img5.jpg" alt="mango">
+            </div>
+            <div class="item">
+              <img src="images/img3.jpg" alt="strawberries">
             </div>
           </div>
-          <div class="item">
-            <img src="images/img4.jpg" alt="currant">
-            <div class="carousel-caption">
-              <h3>The currant slide</h3>
-              <p>Text here</p>
+          <!-- Next / Previous controls here -->
+          <a class="left carousel-control" href="#carousel-demo" data-slide="prev">
+            <span class="icon-prev"></span>
+          </a>
+          <a class="right carousel-control" href="#carousel-demo" data-slide="next">
+            <span class="icon-next"></span>
+          </a>
+        </div>
+        <!-- Flavours cols container-->
+        <div class="pr-details">
+          <h3 class="pr-details-header">Flavours</h3>
+          <div class="pr-detials-container">
+            <div class="pr-details-container-content">
+              <div class="pr-content-products">
+                <span>Mango</span>
+                <span>Pineapple</span>
+                <span>Strawberry</span>
+              </div>
+              <div class="pr-content-products">
+                <span>Vanilla</span>
+                <span>Vanilla coconut</span>
+                <span>Chocolate Coconut</span>
+              </div>
             </div>
-          </div>
-          <div class="item">
-            <img src="images/img5.jpg" alt="mango">
-            <div class="carousel-caption">
-              <h3>The Mangos</h3>
-              <p>Text here</p>
-            </div>
-          </div>
-          <div class="item">
-            <img src="images/img3.jpg" alt="strawberries">
-            <div class="carousel-caption">
-              <h3>The strawberries</h3>
-              <p>Text here</p>
+            <div class="pr-details-container-content">
+              <div class="pr-content-products">
+                <span>Chocolate</span>
+                <span>Banana + Pecan + Dates</span>
+                <span>Mango + Strawberry + Pineapple</span>
+              </div>
+              <div class="pr-content-products">
+                <span>Passionfruit</span>
+                <span>Blueberry + Pineapple</span>
+                <span>Strawberry + Pineapple</span>
+              </div>
             </div>
           </div>
         </div>
-        <!-- Next / Previous controls here -->
-        <a class="left carousel-control" href="#carousel-demo" data-slide="prev">
-          <span class="icon-prev"></span>
-        </a>
-        <a class="right carousel-control" href="#carousel-demo" data-slide="next">
-          <span class="icon-next"></span>
-        </a>
-      </div>
-      <div class="pr-details">
-        <h3 class="pr-details-header">Flavours</h3>
-        <div class="pr-detials-container">
-          <div class="pr-details-container-content">
-            <div class="pr-content-products">
-              <span>Strawberry</span>
-              <span>Pineapple</span>
-              <span>Mango</span>
-            </div>
-            <div class="pr-content-products">
-              <span>Vanilla</span>
-              <span>Chocolate Coconut</span>
-              <span>Vanilla coconut</span>
-            </div>
+        <!--Free-from icons-->
+        <div class="pr-free-from-icons">
+          <img class="pr-free-from-gluten" src="images/gluten-free.png" alt="gluten-free">
+          <img class="pr-free-from-vegan" src="images/vegan.png" alt="vegan">
+          <img class="pr-free-from-dairy" src="images/dairyfree.png" alt="dairyfree">
+          <img class="pr-free-from-organic" src="images/organic.png" alt="organic">
+        </div>
+        <!--package prices-->
+        <div class="pr-lilys-products">
+          <div class="pr-lilys-product-heading">
+            <h3 class="pr-details-header">bundles for sale</h3>
           </div>
-          <div class="pr-details-container-content">
-            <div class="pr-content-products">
-              <span>Chocolate</span>
-              <span>Banana + Pecan + Dates</span>
-              <span>Mango + Strawberry + Pineapple</span>
+          <div class="pr-lilys-bundles">
+            <div class="pr-lilys-bundle">
+              <img class="pr-lilys-bundle-box" src="images/box.png" alt="box">
+              <span> Boxes of 10 plus 1 = NIS 90</span>
             </div>
-            <div class="pr-content-products">
-              <span>Passionfruit</span>
-              <span>Blueberry + Pineapple</span>
-              <span>Strawberry + Pineapple</span>
+            <div class="pr-lilys-bundle">
+              <img class="pr-lilys-bundle-box" src="images/box.png" alt="box">
+              <span> Boxes of 20 = NIS 160</span>
+            </div>
+            <div class="pr-lilys-bundle">
+              <img class="pr-lilys-bundle-box" src="images/box.png" alt="box">
+              <span> Boxes of 30 = NIS 210</span>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="pr-free-from-icons">
-        <img class="pr-free-from-gluten" src="images/gluten-free.png" alt="gluten-free">
-        <img class="pr-free-from-vegan" src="images/vegan.png" alt="vegan">
-        <img class="pr-free-from-dairy" src="images/dairyfree.png" alt="dairyfree">
-        <img class="pr-free-from-organic" src="images/organic.png" alt="organic">
-      </div>
-      <div class="pr-lilys-products">
-        <div class="pr-lilys-product-heading">
-          <h3 class="pr-details-header">bundles for sale</h3>
-        </div>
-        <div class="pr-lilys-bundles">
-          <div class="pr-lilys-bundle">
-            <img class="pr-lilys-bundle-box" src="images/box.png" alt="box">
-            <span> Boxes of 10 plus 1 = NIS 90</span>
+          <!--text + button link to contact page-->
+          <div class="pr-lilys-order">
+            <span>We can cater for larger orders!</span>
           </div>
-          <div class="pr-lilys-bundle">
-            <img class="pr-lilys-bundle-box" src="images/box.png" alt="box">
-            <span> Boxes of 20 = NIS 160</span>
+          <div class="pr-lilys-place-order">
+            <p>To place an order contact us</p>
+            <button type="button" id="contact" class="heading-btn btn btn-default contact-btn">Contact us now!</button>
           </div>
-          <div class="pr-lilys-bundle">
-            <img class="pr-lilys-bundle-box" src="images/box.png" alt="box">
-            <span> Boxes of 30 = NIS 210</span>
-          </div>
-        </div>
-        <div class="pr-lilys-order">
-          <span>We can cater for larger orders!</span>
-        </div>
-        <div class="pr-lilys-place-order">
-          <p>To place an order contact us</p>
-          <button type="button" id="contact" class="heading-btn btn btn-default contact-btn">Contact us now!</button>
         </div>
       </div>
     </div>
-
   </div>
+
   <!--Footer-->
   <div class="footer">
-    <div class="footer-copyrights"> &#64; 2016 by LilyPops
-    </div>
-    <div class="footer-social-media">
-      <a class="btn btn-social-icon btn-twitter">
-        <span class="fa fa-twitter"></span>
-      </a>
-      <a class="btn btn-social-icon btn-facebook">
-        <span class="fa fa-facebook"></span>
-      </a>
-      <a class="btn btn-social-icon btn-instagram">
-        <span class="fa fa-instagram"></span>
-      </a>
+    <div class="footer-container">
+      <div class="footer-copyrights"> &#64; 2016 by LilyPops
+      </div>
+      <div class="footer-social-media">
+        <a class="btn btn-social-icon btn-twitter">
+          <span class="fa fa-twitter"></span>
+        </a>
+        <a class="btn btn-social-icon btn-facebook">
+          <span class="fa fa-facebook"></span>
+        </a>
+        <a class="btn btn-social-icon btn-instagram">
+          <span class="fa fa-instagram"></span>
+        </a>
+      </div>
     </div>
   </div>
-
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <!-- Latest compiled and minified JavaScript -->

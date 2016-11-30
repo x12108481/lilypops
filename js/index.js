@@ -18,19 +18,20 @@ $('#lilyLogo').on('click', function(e) {
   window.location='index.html';
 });
 
+//MAP- initialises map location
 function initMap() {
-  var uluru = {lat: 32.7940, lng: 34.9896};
+  var haifa = {lat: 32.7940, lng: 34.9896};
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 12,
-    center: uluru
+    center: haifa
   });
   var marker = new google.maps.Marker({
-    position: uluru,
+    position: haifa,
     map: map
   });
 }
 
+//form submit button- pop-up alert
 $('#submitBtn').on('click',function() {
-  alert("Thanks for contacting us! We will be in touch asap");
-  window.location='index.html';
+  alert("Thanks for contacting us! We will be in touch soon");
 });
